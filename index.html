@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="clock">time</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="login__header">
+      <h1>Welcome to KoKoaTalk</h1>
+      <p>
+        If you have a KoKoa Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" class="login__form">
+      <input
+        class="login__form-email"
+        type="text"
+        required
+        placeholder="Email or Phone number"
+      />
+      <input
+        class="login__form-password"
+        type="text"
+        required
+        placeholder="Password"
+      />
+      <input class="login__form-login" type="submit" value="Log In" />
+      <input class="login__form-signup" type="submit" value="Sign up" />
+      <a href="#" class="login__form-link">
+        <span> Find KoKoa Account or Password</span>
+      </a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

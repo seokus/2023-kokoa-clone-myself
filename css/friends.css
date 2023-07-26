@@ -1,0 +1,89 @@
+.friends-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.friends-header .fa-music {
+  margin: 0 20px;
+}
+
+.friends-display {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 0;
+  background-color: #fffbfb;
+}
+.friends-display span:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1d5e1;
+  width: 18px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 5px;
+}
+.friends-display i {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: #d1d5e1;
+}
+
+.main {
+  margin: 5px 15px;
+}
+.main .friends-profile {
+  display: flex;
+  margin: 10px 0;
+}
+.main .friends-profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.main .friends-profile__name {
+  display: flex;
+  align-items: center;
+}
+.main .friends-profile__name span {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.friends-profile-channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  color: #979797;
+  border-top: 1px solid #f5f3f3;
+}
+
+.small {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small .friends-profile__img {
+  display: flex;
+}
+.small .friends-profile__img img {
+  border-radius: 15px;
+  margin-right: 20px;
+  width: 55px;
+  height: 55px;
+}
+.small .friends-profile__img span {
+  font-size: 16px;
+}
+.small .friends-profile__info {
+  color: #979797;
+}/*# sourceMappingURL=friends.css.map */

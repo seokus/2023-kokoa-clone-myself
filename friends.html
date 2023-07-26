@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+    <title>Friends</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- Status -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="clock">time</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- Friends -->
+    <header class="friends-header">
+      <h1>Friends</h1>
+      <div class="friedns-header__column">
+        <a href="#"><i class="fas fa-search fa-xs"></i></a>
+        <a href="#"><i class="fas fa-music fa-xs"></i></a>
+        <a href="#"><i class="fas fa-cog fa-xs"></i></a>
+      </div>
+    </header>
+    <div class="friends-display">
+      <span>!</span>
+      <span>Friend's Names Display</span>
+      <i class="fas fa-angle-right"></i>
+    </div>
+    <main class="main">
+      <div class="friends-profile">
+        <div class="friends-profile__img">
+          <img src="screenshot/profile.jpg" alt="Profile" />
+        </div>
+        <div class="friends-profile__name">
+          <span>BOSEOK</span>
+        </div>
+      </div>
+      <div class="friends-profile-channel">
+        <span>Channel</span>
+        <i class="fas fa-angle-up"></i>
+      </div>
+      <div class="firends-profile small">
+        <div class="friends-profile__img">
+          <img src="screenshot/kakao-log.jpg" alt="kakao logo" />
+          <div class="friends-profile__name">
+            <span>Channel</span>
+          </div>
+        </div>
+        <div class="friends-profile__info">
+          <span>2</span>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </main>
+    <!-- Navigation-Bar -->
+    <nav class="nav">
+      <ul class="nav-ul">
+        <a href="#">
+          <li>
+            <i class="fas fa-user"></i>
+          </li> </a
+        ><a href="#">
+          <li>
+            <i class="far fa-comment"></i>
+            <span class="upper-dot">1</span>
+          </li> </a
+        ><a href="#">
+          <li><i class="fas fa-search"></i></li> </a
+        ><a href="#">
+          <li><i class="fas fa-ellipsis-h"></i></li>
+        </a>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6261c403f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

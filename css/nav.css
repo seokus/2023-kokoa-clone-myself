@@ -1,0 +1,14 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #f0f0f0;
+  padding: 25px 0;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.nav ul i {
+  font-size: 28px;
+}/*# sourceMappingURL=nav.css.map */
